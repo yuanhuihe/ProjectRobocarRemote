@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9EC6676D2096118300CB8CA1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC6676C2096118300CB8CA1 /* AppDelegate.swift */; };
+		9EC6676F2096118300CB8CA1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC6676E2096118300CB8CA1 /* ViewController.swift */; };
+		9EC667722096118300CB8CA1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EC667702096118300CB8CA1 /* Main.storyboard */; };
+		9EC667742096118600CB8CA1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9EC667732096118600CB8CA1 /* Assets.xcassets */; };
+		9EC667772096118600CB8CA1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EC667752096118600CB8CA1 /* LaunchScreen.storyboard */; };
+		9EC667822096118600CB8CA1 /* ProjectRobocarRemoteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC667812096118600CB8CA1 /* ProjectRobocarRemoteTests.swift */; };
+		9EC6678D2096118600CB8CA1 /* ProjectRobocarRemoteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC6678C2096118600CB8CA1 /* ProjectRobocarRemoteUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9EC6677E2096118600CB8CA1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9EC667612096118300CB8CA1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9EC667682096118300CB8CA1;
+			remoteInfo = ProjectRobocarRemote;
+		};
+		9EC667892096118600CB8CA1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9EC667612096118300CB8CA1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9EC667682096118300CB8CA1;
+			remoteInfo = ProjectRobocarRemote;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9EC667692096118300CB8CA1 /* ProjectRobocarRemote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProjectRobocarRemote.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9EC6676C2096118300CB8CA1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9EC6676E2096118300CB8CA1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9EC667712096118300CB8CA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9EC667732096118600CB8CA1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9EC667762096118600CB8CA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9EC667782096118600CB8CA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9EC6677D2096118600CB8CA1 /* ProjectRobocarRemoteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProjectRobocarRemoteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9EC667812096118600CB8CA1 /* ProjectRobocarRemoteTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectRobocarRemoteTests.swift; sourceTree = "<group>"; };
+		9EC667832096118600CB8CA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9EC667882096118600CB8CA1 /* ProjectRobocarRemoteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProjectRobocarRemoteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9EC6678C2096118600CB8CA1 /* ProjectRobocarRemoteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectRobocarRemoteUITests.swift; sourceTree = "<group>"; };
+		9EC6678E2096118600CB8CA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9EC667662096118300CB8CA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EC6677A2096118600CB8CA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EC667852096118600CB8CA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9EC667602096118300CB8CA1 = {
+			isa = PBXGroup;
+			children = (
+				9EC6676B2096118300CB8CA1 /* ProjectRobocarRemote */,
+				9EC667802096118600CB8CA1 /* ProjectRobocarRemoteTests */,
+				9EC6678B2096118600CB8CA1 /* ProjectRobocarRemoteUITests */,
+				9EC6676A2096118300CB8CA1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9EC6676A2096118300CB8CA1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9EC667692096118300CB8CA1 /* ProjectRobocarRemote.app */,
+				9EC6677D2096118600CB8CA1 /* ProjectRobocarRemoteTests.xctest */,
+				9EC667882096118600CB8CA1 /* ProjectRobocarRemoteUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9EC6676B2096118300CB8CA1 /* ProjectRobocarRemote */ = {
+			isa = PBXGroup;
+			children = (
+				9EC6676C2096118300CB8CA1 /* AppDelegate.swift */,
+				9EC6676E2096118300CB8CA1 /* ViewController.swift */,
+				9EC667702096118300CB8CA1 /* Main.storyboard */,
+				9EC667732096118600CB8CA1 /* Assets.xcassets */,
+				9EC667752096118600CB8CA1 /* LaunchScreen.storyboard */,
+				9EC667782096118600CB8CA1 /* Info.plist */,
+			);
+			path = ProjectRobocarRemote;
+			sourceTree = "<group>";
+		};
+		9EC667802096118600CB8CA1 /* ProjectRobocarRemoteTests */ = {
+			isa = PBXGroup;
+			children = (
+				9EC667812096118600CB8CA1 /* ProjectRobocarRemoteTests.swift */,
+				9EC667832096118600CB8CA1 /* Info.plist */,
+			);
+			path = ProjectRobocarRemoteTests;
+			sourceTree = "<group>";
+		};
+		9EC6678B2096118600CB8CA1 /* ProjectRobocarRemoteUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9EC6678C2096118600CB8CA1 /* ProjectRobocarRemoteUITests.swift */,
+				9EC6678E2096118600CB8CA1 /* Info.plist */,
+			);
+			path = ProjectRobocarRemoteUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9EC667682096118300CB8CA1 /* ProjectRobocarRemote */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9EC667912096118600CB8CA1 /* Build configuration list for PBXNativeTarget "ProjectRobocarRemote" */;
+			buildPhases = (
+				9EC667652096118300CB8CA1 /* Sources */,
+				9EC667662096118300CB8CA1 /* Frameworks */,
+				9EC667672096118300CB8CA1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ProjectRobocarRemote;
+			productName = ProjectRobocarRemote;
+			productReference = 9EC667692096118300CB8CA1 /* ProjectRobocarRemote.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9EC6677C2096118600CB8CA1 /* ProjectRobocarRemoteTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9EC667942096118600CB8CA1 /* Build configuration list for PBXNativeTarget "ProjectRobocarRemoteTests" */;
+			buildPhases = (
+				9EC667792096118600CB8CA1 /* Sources */,
+				9EC6677A2096118600CB8CA1 /* Frameworks */,
+				9EC6677B2096118600CB8CA1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9EC6677F2096118600CB8CA1 /* PBXTargetDependency */,
+			);
+			name = ProjectRobocarRemoteTests;
+			productName = ProjectRobocarRemoteTests;
+			productReference = 9EC6677D2096118600CB8CA1 /* ProjectRobocarRemoteTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9EC667872096118600CB8CA1 /* ProjectRobocarRemoteUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9EC667972096118600CB8CA1 /* Build configuration list for PBXNativeTarget "ProjectRobocarRemoteUITests" */;
+			buildPhases = (
+				9EC667842096118600CB8CA1 /* Sources */,
+				9EC667852096118600CB8CA1 /* Frameworks */,
+				9EC667862096118600CB8CA1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9EC6678A2096118600CB8CA1 /* PBXTargetDependency */,
+			);
+			name = ProjectRobocarRemoteUITests;
+			productName = ProjectRobocarRemoteUITests;
+			productReference = 9EC667882096118600CB8CA1 /* ProjectRobocarRemoteUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9EC667612096118300CB8CA1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = Robocar;
+				TargetAttributes = {
+					9EC667682096118300CB8CA1 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					9EC6677C2096118600CB8CA1 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 9EC667682096118300CB8CA1;
+					};
+					9EC667872096118600CB8CA1 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 9EC667682096118300CB8CA1;
+					};
+				};
+			};
+			buildConfigurationList = 9EC667642096118300CB8CA1 /* Build configuration list for PBXProject "ProjectRobocarRemote" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9EC667602096118300CB8CA1;
+			productRefGroup = 9EC6676A2096118300CB8CA1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9EC667682096118300CB8CA1 /* ProjectRobocarRemote */,
+				9EC6677C2096118600CB8CA1 /* ProjectRobocarRemoteTests */,
+				9EC667872096118600CB8CA1 /* ProjectRobocarRemoteUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9EC667672096118300CB8CA1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EC667772096118600CB8CA1 /* LaunchScreen.storyboard in Resources */,
+				9EC667742096118600CB8CA1 /* Assets.xcassets in Resources */,
+				9EC667722096118300CB8CA1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EC6677B2096118600CB8CA1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EC667862096118600CB8CA1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9EC667652096118300CB8CA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EC6676F2096118300CB8CA1 /* ViewController.swift in Sources */,
+				9EC6676D2096118300CB8CA1 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EC667792096118600CB8CA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EC667822096118600CB8CA1 /* ProjectRobocarRemoteTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EC667842096118600CB8CA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EC6678D2096118600CB8CA1 /* ProjectRobocarRemoteUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9EC6677F2096118600CB8CA1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9EC667682096118300CB8CA1 /* ProjectRobocarRemote */;
+			targetProxy = 9EC6677E2096118600CB8CA1 /* PBXContainerItemProxy */;
+		};
+		9EC6678A2096118600CB8CA1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9EC667682096118300CB8CA1 /* ProjectRobocarRemote */;
+			targetProxy = 9EC667892096118600CB8CA1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9EC667702096118300CB8CA1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9EC667712096118300CB8CA1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9EC667752096118600CB8CA1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9EC667762096118600CB8CA1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9EC6678F2096118600CB8CA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9EC667902096118600CB8CA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9EC667922096118600CB8CA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5EPNM6XA85;
+				INFOPLIST_FILE = ProjectRobocarRemote/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = robocar.ProjectRobocarRemote;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9EC667932096118600CB8CA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5EPNM6XA85;
+				INFOPLIST_FILE = ProjectRobocarRemote/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = robocar.ProjectRobocarRemote;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9EC667952096118600CB8CA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5EPNM6XA85;
+				INFOPLIST_FILE = ProjectRobocarRemoteTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = robocar.ProjectRobocarRemoteTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ProjectRobocarRemote.app/ProjectRobocarRemote";
+			};
+			name = Debug;
+		};
+		9EC667962096118600CB8CA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5EPNM6XA85;
+				INFOPLIST_FILE = ProjectRobocarRemoteTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = robocar.ProjectRobocarRemoteTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ProjectRobocarRemote.app/ProjectRobocarRemote";
+			};
+			name = Release;
+		};
+		9EC667982096118600CB8CA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5EPNM6XA85;
+				INFOPLIST_FILE = ProjectRobocarRemoteUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = robocar.ProjectRobocarRemoteUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ProjectRobocarRemote;
+			};
+			name = Debug;
+		};
+		9EC667992096118600CB8CA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5EPNM6XA85;
+				INFOPLIST_FILE = ProjectRobocarRemoteUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = robocar.ProjectRobocarRemoteUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ProjectRobocarRemote;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9EC667642096118300CB8CA1 /* Build configuration list for PBXProject "ProjectRobocarRemote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9EC6678F2096118600CB8CA1 /* Debug */,
+				9EC667902096118600CB8CA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9EC667912096118600CB8CA1 /* Build configuration list for PBXNativeTarget "ProjectRobocarRemote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9EC667922096118600CB8CA1 /* Debug */,
+				9EC667932096118600CB8CA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9EC667942096118600CB8CA1 /* Build configuration list for PBXNativeTarget "ProjectRobocarRemoteTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9EC667952096118600CB8CA1 /* Debug */,
+				9EC667962096118600CB8CA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9EC667972096118600CB8CA1 /* Build configuration list for PBXNativeTarget "ProjectRobocarRemoteUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9EC667982096118600CB8CA1 /* Debug */,
+				9EC667992096118600CB8CA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9EC667612096118300CB8CA1 /* Project object */;
+}
