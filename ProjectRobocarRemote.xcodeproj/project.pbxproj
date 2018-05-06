@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9E4E0F6F209D92B400B43B25 /* Starscream.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E4E0F6C209D92AA00B43B25 /* Starscream.framework */; };
+		9E4E0F70209D92B400B43B25 /* Starscream.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9E4E0F6C209D92AA00B43B25 /* Starscream.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		9EC6676D2096118300CB8CA1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC6676C2096118300CB8CA1 /* AppDelegate.swift */; };
 		9EC6676F2096118300CB8CA1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC6676E2096118300CB8CA1 /* ViewController.swift */; };
 		9EC667722096118300CB8CA1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EC667702096118300CB8CA1 /* Main.storyboard */; };
@@ -14,9 +16,31 @@
 		9EC667772096118600CB8CA1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EC667752096118600CB8CA1 /* LaunchScreen.storyboard */; };
 		9EC667822096118600CB8CA1 /* ProjectRobocarRemoteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC667812096118600CB8CA1 /* ProjectRobocarRemoteTests.swift */; };
 		9EC6678D2096118600CB8CA1 /* ProjectRobocarRemoteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC6678C2096118600CB8CA1 /* ProjectRobocarRemoteUITests.swift */; };
+		9ECA4163209D673800577089 /* SocketClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ECA4162209D673800577089 /* SocketClient.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		9E4E0F6B209D92AA00B43B25 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9E4E0F66209D92AA00B43B25 /* Starscream.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 33CCF0921F5DDC030099B092;
+			remoteInfo = Starscream;
+		};
+		9E4E0F6D209D92AA00B43B25 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9E4E0F66209D92AA00B43B25 /* Starscream.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 335FA2021F5DF71D00F6D2EC;
+			remoteInfo = "Starscream Tests";
+		};
+		9E4E0F71209D92B400B43B25 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9E4E0F66209D92AA00B43B25 /* Starscream.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 33CCF0841F5DDC030099B092;
+			remoteInfo = Starscream;
+		};
 		9EC6677E2096118600CB8CA1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 9EC667612096118300CB8CA1 /* Project object */;
@@ -33,7 +57,22 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		9E4E0F4C209D8CFC00B43B25 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				9E4E0F70209D92B400B43B25 /* Starscream.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		9E4E0F66209D92AA00B43B25 /* Starscream.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Starscream.xcodeproj; path = "../../Workspace/ProjectRobocarRemote/Starscream-3.0.5/Starscream.xcodeproj"; sourceTree = "<group>"; };
 		9EC667692096118300CB8CA1 /* ProjectRobocarRemote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProjectRobocarRemote.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9EC6676C2096118300CB8CA1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9EC6676E2096118300CB8CA1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +86,7 @@
 		9EC667882096118600CB8CA1 /* ProjectRobocarRemoteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProjectRobocarRemoteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9EC6678C2096118600CB8CA1 /* ProjectRobocarRemoteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectRobocarRemoteUITests.swift; sourceTree = "<group>"; };
 		9EC6678E2096118600CB8CA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9ECA4162209D673800577089 /* SocketClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocketClient.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E4E0F6F209D92B400B43B25 /* Starscream.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,9 +115,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9E4E0F67209D92AA00B43B25 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9E4E0F6C209D92AA00B43B25 /* Starscream.framework */,
+				9E4E0F6E209D92AA00B43B25 /* Starscream Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		9EC667602096118300CB8CA1 = {
 			isa = PBXGroup;
 			children = (
+				9E4E0F66209D92AA00B43B25 /* Starscream.xcodeproj */,
 				9EC6676B2096118300CB8CA1 /* ProjectRobocarRemote */,
 				9EC667802096118600CB8CA1 /* ProjectRobocarRemoteTests */,
 				9EC6678B2096118600CB8CA1 /* ProjectRobocarRemoteUITests */,
@@ -99,6 +150,7 @@
 			children = (
 				9EC6676C2096118300CB8CA1 /* AppDelegate.swift */,
 				9EC6676E2096118300CB8CA1 /* ViewController.swift */,
+				9ECA4162209D673800577089 /* SocketClient.swift */,
 				9EC667702096118300CB8CA1 /* Main.storyboard */,
 				9EC667732096118600CB8CA1 /* Assets.xcassets */,
 				9EC667752096118600CB8CA1 /* LaunchScreen.storyboard */,
@@ -135,10 +187,12 @@
 				9EC667652096118300CB8CA1 /* Sources */,
 				9EC667662096118300CB8CA1 /* Frameworks */,
 				9EC667672096118300CB8CA1 /* Resources */,
+				9E4E0F4C209D8CFC00B43B25 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				9E4E0F72209D92B400B43B25 /* PBXTargetDependency */,
 			);
 			name = ProjectRobocarRemote;
 			productName = ProjectRobocarRemote;
@@ -215,6 +269,12 @@
 			mainGroup = 9EC667602096118300CB8CA1;
 			productRefGroup = 9EC6676A2096118300CB8CA1 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 9E4E0F67209D92AA00B43B25 /* Products */;
+					ProjectRef = 9E4E0F66209D92AA00B43B25 /* Starscream.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				9EC667682096118300CB8CA1 /* ProjectRobocarRemote */,
@@ -223,6 +283,23 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		9E4E0F6C209D92AA00B43B25 /* Starscream.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Starscream.framework;
+			remoteRef = 9E4E0F6B209D92AA00B43B25 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		9E4E0F6E209D92AA00B43B25 /* Starscream Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Starscream Tests.xctest";
+			remoteRef = 9E4E0F6D209D92AA00B43B25 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		9EC667672096118300CB8CA1 /* Resources */ = {
@@ -256,6 +333,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9ECA4163209D673800577089 /* SocketClient.swift in Sources */,
 				9EC6676F2096118300CB8CA1 /* ViewController.swift in Sources */,
 				9EC6676D2096118300CB8CA1 /* AppDelegate.swift in Sources */,
 			);
@@ -280,6 +358,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		9E4E0F72209D92B400B43B25 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Starscream;
+			targetProxy = 9E4E0F71209D92B400B43B25 /* PBXContainerItemProxy */;
+		};
 		9EC6677F2096118600CB8CA1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 9EC667682096118300CB8CA1 /* ProjectRobocarRemote */;
@@ -429,15 +512,25 @@
 		9EC667922096118600CB8CA1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5EPNM6XA85;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(USER_LIBRARY_DIR)/Mobile\\ Documents/com~apple~CloudDocs/Workspace/ProjectRobocarRemote",
+					"$(USER_LIBRARY_DIR)/Mobile\\ Documents/com~apple~CloudDocs/Workspace/ProjectRobocarRemote/ProjectRobocarRemote",
+					"$(USER_LIBRARY_DIR)/Mobile\\ Documents/com~apple~CloudDocs/Workspace/ProjectRobocarRemote/ProjectRobocarRemote",
+					"$(USER_LIBRARY_DIR)/Mobile\\ Documents/com~apple~CloudDocs/Workspace/ProjectRobocarRemote/ProjectRobocarRemote",
+					"$(USER_LIBRARY_DIR)/Mobile\\ Documents/com~apple~CloudDocs/Workspace/ProjectRobocarRemote",
+					"$(USER_LIBRARY_DIR)/Mobile\\ Documents/com~apple~CloudDocs/Workspace/ProjectRobocarRemote",
+				);
 				INFOPLIST_FILE = ProjectRobocarRemote/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = robocar.ProjectRobocarRemote;
+				PRODUCT_BUNDLE_IDENTIFIER = com.robocar.RobocarRemote;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -447,15 +540,25 @@
 		9EC667932096118600CB8CA1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5EPNM6XA85;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(USER_LIBRARY_DIR)/Mobile\\ Documents/com~apple~CloudDocs/Workspace/ProjectRobocarRemote",
+					"$(USER_LIBRARY_DIR)/Mobile\\ Documents/com~apple~CloudDocs/Workspace/ProjectRobocarRemote/ProjectRobocarRemote",
+					"$(USER_LIBRARY_DIR)/Mobile\\ Documents/com~apple~CloudDocs/Workspace/ProjectRobocarRemote/ProjectRobocarRemote",
+					"$(USER_LIBRARY_DIR)/Mobile\\ Documents/com~apple~CloudDocs/Workspace/ProjectRobocarRemote/ProjectRobocarRemote",
+					"$(USER_LIBRARY_DIR)/Mobile\\ Documents/com~apple~CloudDocs/Workspace/ProjectRobocarRemote",
+					"$(USER_LIBRARY_DIR)/Mobile\\ Documents/com~apple~CloudDocs/Workspace/ProjectRobocarRemote",
+				);
 				INFOPLIST_FILE = ProjectRobocarRemote/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = robocar.ProjectRobocarRemote;
+				PRODUCT_BUNDLE_IDENTIFIER = com.robocar.RobocarRemote;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
